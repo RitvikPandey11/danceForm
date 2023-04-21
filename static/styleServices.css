@@ -1,0 +1,50 @@
+body{
+    background-color:cornsilk;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 84.5vh;
+
+}
+.sp{
+    height: 60%;
+    width: 60%;
+    margin-top: 28px;
+}
+#first{
+    border: 2px solid brown;
+    margin: 16px;
+    width: 30%;
+    height: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 239, 219);
+    border-radius: 10px;
+}
+#second{
+    border: 2px solid brown;
+    margin: 16px;
+    width: 30%;
+    height: 65%;
+    text-align: center;
+    background-color: rgb(255, 239, 219);
+    border-radius: 10px;
+}
+#third{
+    border: 2px solid brown;
+    margin: 16px;
+    width: 30%;
+    height: 65%;
+    text-align: center;
+    background-color:rgb(255, 239, 219);
+    border-radius: 10px;
+}
+.box h2{
+    margin-top: 10px;
+}

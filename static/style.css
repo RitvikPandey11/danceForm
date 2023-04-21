@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    background-color: black;
+    padding: 4px 8px;
+    font-family: 'Edu SA Beginner', cursive;
+    height: 60px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a:hover{
+    list-style: none;
+    color:darkgrey;
+    font-weight: bold;
+    background-color: white;
+}
+#navbar li a{
+     text-decoration: none;
+     padding: 13px 34px;
+     color: azure;
+     font-size: 24px;
+}
+#introSection{
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 425px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: red;
+    background:url('/static/bg.jpg') center/cover no-repeat  ;
+}
+.small{
+    font-size: 27px;
+    padding: 5px;
+}
+#missonSection{
+    height: 300px;
+    width: 68%;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(248, 239, 228);  
+    color: black;
+}
+#missonSection h1{
+    text-align: center;
+}
+.cards{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin:13px;
+    height: 209px;
+    display:inline-block;
+    text-align: center;
+    border-color: burlywood;
+    background-color: cornsilk;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#LOGO{
+   display: flex;
+   color: white;
+   align-items: center;
+   margin-right: 46px;
+    
+}
+#LOGO img{
+    height: 52px;
+    width: 42px;
+    margin: 0px;
+}
+#missonSection{
+    padding: auto;
+}
+.cards h3{
+    margin-top: 45px;
+    padding: 3px;
+    margin-bottom: 10px ;
+   
+}
